@@ -14,11 +14,6 @@ body, html{
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
   background-attachment:fixed;
 }
 
@@ -77,5 +72,11 @@ body, html{
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
+    position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
   }
 }
